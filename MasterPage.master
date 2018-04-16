@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>i2i</title>
+		<meta name="description" content="Animated Books with CSS 3D Transforms" />
+		<meta name="keywords" content="book, 3d, interactive, animated, 3d transform, css, web design" />
+		<meta name="author" content="Marco Barría for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/book.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+    <form id="form1" method="post" runat="server">
+	
+		<div class="container">
+			<!-- Top Navigation -->
+			
+			<header>
+				<h1>Remedy AnyTime<span>Ancient remedies for modern time</span></h1>	
+				<!-- <nav class="codrops-demos">
+					<a class="current-demo" href="index.html">Hardcover</a>
+					<a href="index2.html">Paperback</a>  -->
+				</nav>
+			</header>
+
+              
+    <div class="leftmenu">
+      <div class="nav">
+        <ul>
+          <li><a href="index.aspx">Home</a></li>
+          <li><a href="remedyhome.aspx">Remedies</a></li>
+          <li><a href="HealthyHomePage.aspx">Healthy Life</a></li>
+          <li><a href="Registration.aspx">Register</a></li>
+          <li><a href="Contact.aspx">Contact Us</a></li>
+         <!-- <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li> -->
+        </ul>
+      </div>
+    </div>
+    <a href="#"><img class="fb" src="img/facebook.gif" width="60px" height="60px"></a>
+    <h7 class="fblog"><a href="#">Login to facebook</a></h7>
+    <a href="#"><img class="tw" src="img/twitter.gif" width="60px" height="60px"></a>
+    <h7 class="twfol"><a href="#">Follow us on Twitter</a></h7>
+    <p class="location"><br /> <br /><br /></p>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+			<div class="component">
+
+				<ul class="align">
+					<li>
+						<figure class='book'>
+
+							<!-- Front -->
+
+							<ul class='hardcover_front'>
+								<li>
+									<div class="coverDesign yellow">
+										<span class="ribbon"></span>
+										<h1>Home</h1>
+										<p>Remedies</p>
+									</div>
+								</li>
+								<li></li>
+							</ul>
+
+							<!-- Pages -->
+
+							<ul class='page'>
+								<li></li>
+								<li>
+									<a class="btn" href="remedyhome.aspx">Visit Page</a>
+								</li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+
+							<!-- Back -->
+
+							<ul class='hardcover_back'>
+								<li></li>
+								<li></li>
+							</ul>
+							<ul class='book_spine'>
+								<li></li>
+								<li></li>
+							</ul>
+							<figcaption>
+								<h1>Home Remedies</h1>
+								<span></span>
+								<p>info.........</p>
+							</figcaption>
+						</figure>
+			    		</li>
+                    <br/>
+                        <li>
+						<figure class='book'>
+
+						<!-- Front -->
+
+							<ul class='hardcover_front'>
+								<li>
+									<img src="img/cover.jpg" alt="" width="100%" height="100%">
+								</li>
+								<li></li>
+							</ul>
+
+						<!-- Pages -->
+
+							<ul class='page'>
+								<li></li>
+								<li>
+									<a class="btn" href="healthylife.aspx">Visit Page</a>
+								</li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+
+						<!-- Back -->
+
+							<ul class='hardcover_back'>
+								<li></li>
+								<li></li>
+							</ul>
+							<ul class='book_spine'>
+								<li></li>
+								<li></li>
+							</ul>
+							<figcaption>
+								<h1>tips for Healthy Life</h1>
+								<span></span>
+								<p>info.........</p>
+							</figcaption>
+						</figure>
+					</li>   
+				</ul>
+				
+			</div>
+
+            
+          
+		</div><!-- /container -->
+
+        </form>
+        <div class="footer">
+            <p align="center" style="font-family:Comic Sans MS">All Rights Reserved @ www.remedyanytime.com</p>
+        </div>
+        <br/>
+	</body>
+   
+</html>

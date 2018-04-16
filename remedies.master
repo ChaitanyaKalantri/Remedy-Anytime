@@ -1,0 +1,817 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="remedies.master.cs" Inherits="remedies" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>By I2I Team</title>
+		<meta name="description" content="Animated Books with CSS 3D Transforms" />
+		<meta name="keywords" content="book, 3d, interactive, animated, 3d transform, css, web design" />
+		<meta name="author" content="Marco Barría for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/book2.css" />
+		<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+    <form id="form1"  runat="server" action="http://dictionary.cambridge.org/search/british/direct/?utm_source=widget_searchbox_source&utm_medium=widget_searchbox&utm_campaign=widget_tracking" method="post" target="_blank">
+        <div class="container">
+			<!-- Top Navigation -->
+			
+			<header>
+				<h1>Remedy AnyTime <span>Ancient remedies for modern times</span></h1>	
+				<nav class="codrops-demos">
+					<a href="index.aspx">Home</a>
+					<a  href="remedyhome.aspx">Remedies</a><!-- this was removed to keep same color class="current-demo"-->
+                    <a href="HealthyHomePage.aspx">Healthy Life</a>
+				</nav>
+			</header>
+
+<!-- Right Side Menu -->
+  
+<ul class="blendedmenu" id="blendedMenuV" >
+<!--  General  -->
+<li class="active"><a href="#">General</a>
+    <ul>
+    <!--  Alcoholism  -->
+    <li class="active">
+    <a href="alcoholism.aspx">Alcoholism</a>
+    </li>
+    <!--  Anaemia  -->
+    <li class="active">
+    <a href="anaemia.aspx">Anaemia</a>
+    </li>
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Appendicitis.aspx">Appendicitis</a>
+    </li>
+
+    <!--  Athlete's Foot  -->
+    <li class="active">
+    <a href="Athlete'sFoot.aspx">Athlete's Foot</a>
+    </li>
+
+    <!--  Bed Sores  -->
+    <li class="active">
+    <a href="BedSores.aspx">Bed Sores</a>
+    </li>
+
+    <!--  Chicken Pox  -->
+    <li class="active">
+    <a href="ChickenPox.aspx">Chicken Pox</a>
+    </li>
+
+    <!--  Common Cold  -->
+    <li class="active">
+    <a href="CommonCold.aspx">Common Cold</a>
+    </li>
+
+    <!--  Dehydration  -->
+    <li class="active">
+    <a href="Dehydration.aspx">Dehydration</a>
+    </li>
+
+    <!--  Dry Cough  -->
+    <li class="active">
+    <a href="DryCough.aspx">Dry Cough</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="ExcessiveThirst.aspx">Excessive Thirst</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Fatigue.aspx">Fatigue</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Fever.aspx">Fever</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Hangover.aspx">Hangover</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="HeatStroke.aspx">Heat Stroke</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Hepatitis.aspx">Hepatitis</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="InsectBites.aspx">Insect Bites</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Malaria.aspx">Malaria</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Pneumonia.aspx">Pneumonia</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Ringworm.aspx">Ringworm</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Sinusitis.aspx">Sinusitis</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="SweatingDisorder.aspx">Sweating Disorder </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Theimmunesystem.aspx">The Immune System </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Tuberculosis.aspx">Tuberculosis </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="WetCough.aspx">Wet Cough </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="WhoopingCough.aspx">Whooping Cough </a>
+    </li>
+
+    </ul>
+</li>
+
+<li class="active"><a href="#">Pains and Cramps</a>
+    <ul>
+        
+    <!--  Back Pain  -->
+    <li class="active">
+    <a href="BackPain.aspx">Back Pain </a>
+    </li>
+
+    
+    <!--  Gout  -->
+    <li class="active">
+    <a href="Gout.aspx">Gout </a>
+    </li>
+
+    
+    <!--  Headache -->
+    <li class="active">
+    <a href="Headache.aspx">Headache </a>
+    </li>
+
+    
+    <!--  Knee Pain -->
+    <li class="active">
+    <a href="KneePain.aspx">Knee Pain</a>
+    </li>
+
+    
+    <!--  Migraines  -->
+    <li class="active">
+    <a href="Migraines.aspx">Magrain </a>
+    </li>
+
+    
+    <!--  Osteoarthritis  -->
+    <li class="active">
+    <a href="Osteoarthritis.aspx">Osteoarthritis</a>
+    </li>
+
+    
+    <!--  Rheumatoid Arthritis -->
+    <li class="active">
+    <a href="RheumatoidArthritis.aspx">Rheumatoid Arthritis</a>
+    </li>
+
+    
+    <!--  Tennis Elbow  -->
+    <li class="active">
+    <a href="TennisElbow.aspx">Tennis Elbow </a>
+    </li>
+
+
+
+
+    </ul>
+</li>
+
+<li class="active"><a href="#">Skin and Hair</a>
+    <ul>
+    <!--    -->
+    <li class="active">
+    <a href="#">Hair</a>
+        <ul>
+        
+          
+    <!-- Baldness  -->
+    <li class="active">
+    <a href="Baldness.aspx">Baldness </a>
+    </li>
+
+    
+    <!--  Dandruff  -->
+    <li class="active">
+    <a href="Dandruff.aspx">Dandruff </a>
+    </li>
+
+    
+    <!--  Dry Hair -->
+    <li class="active">
+    <a href="DryHair.aspx">Dry Hair</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="GrayHair.aspx">Gray Hair </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="HairLoss.aspx">Hair Loss</a>
+    </li>
+
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="HeadLice.aspx">Head Lice</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="OilyHair.aspx">Oily Hair</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="ShinyHair.aspx">Shiny Hair</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="SplitEnds.aspx">Split Ends </a>
+    </li>
+        </ul>
+    </li>
+    <!--    -->
+    <li class="active">
+    <a href="">Skin</a>
+        <ul>
+        
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="AcneScars.aspx">Acne Scars </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="#">Acne</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Blackheads.aspx">Blackheads </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Blemishes.aspx">Blemishes</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="FacialSkincare.aspx">Facial Skin care </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="DrySkin.aspx">Dry Skin</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="OilySkin.aspx">Oily Skin</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="RemovingSkinTan.aspx">Removing Skin Tan </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="SkinPigmentation.aspx">Skin Pigmentation</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Wrinkles.aspx">Wrinkles</a>
+    </li>
+
+
+
+        
+        </ul>
+     </li>
+    </ul>
+</li>
+
+<li class="active"><a href="#">Eyes</a>
+    <ul>
+    
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Cataract.aspx">Cataract</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Conjunctivitis.aspx">Conguctivities</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="MacularDegeneration.aspx">Macular Degeration </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Stye.aspx">Stye</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="WeakEyesight.aspx">Week Eyesight</a>
+    </li>
+    
+    </ul>
+</li>
+
+<li class="active"><a href="#">Ear,Nose and Throat</a>
+    <ul>
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Bronchities.aspx">Bronchities</a>
+    </li>
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="EarAche.aspx">Ear Ache </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="EarInfection.aspx">Ear Infection</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Goitre.aspx">Goitre </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Laringnities.aspx">Laringnities </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Mumps.aspx">Mumps </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="NasalCongestion.aspx">Nasal Congestion</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="NoseBleeding.aspx">Nose Bleeding</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="SoreThroat.aspx">Sore Throat</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Swimmer'sEar.aspx">Swimmers Ear </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Tinnitus.aspx">Tinnitus </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Tonsillitis.aspx">Tonsils</a>
+    </li>
+
+
+    </ul>
+</li>
+
+<li class="active"><a href="#">Oral Health</a>
+    <ul>
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="BadBreath.aspx">Bad Breath</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="BurningTongue.aspx">Burning Tongue</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="DryMouth.aspx">Dry Mouth</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Gingivitis.aspx">Gingivitis</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="OralCandidiasis.aspx">Oral Candidiasis </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Pyorrhea.aspx">Pyorrhea </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="TeethandLipDiscoloration.aspx">Teeth/Lip Discoloration</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="TeethSensitivity.aspx">Teeth Sensitivity </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="ToothDecay.aspx">Tooth Decay </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Toothache.aspx">Toothache </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="WhiteningofTeeth.aspx">Whitening of Teeth </a>
+    </li>
+    </ul>
+</li>
+
+<li class="active"><a href="#">Chest</a>
+<ul>
+<li class="active">
+    <a href="Angina.aspx">Angia</a>
+    </li>
+
+<li class="active">
+    <a href="Asthma.aspx">Asthma</a>
+    </li>
+
+<li class="active">
+    <a href="Chest Congestion.aspx">Chest Congestion</a>
+    </li>
+
+<li class="active">
+    <a href="Cholesterol.aspx">Cholesterol</a>
+    </li>
+
+
+
+</ul>
+    
+</li>
+
+<li class="active"><a href="#">Stomach</a>
+    <ul>
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="AcidReflux(Heartburn).aspx">Acid Reflux </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Belching.aspx">Belching </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Constipation.aspx">Constipation </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Diarrhoea.aspx">Diarrhoea </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Flatulence.aspx">Flatulence</a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Gastritis.aspx">Gastritis </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Gastroenteritis(StomachFlu).aspx">Gastroenteritis </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Indigestion.aspx">Indigestion </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="IntestinalWorms.aspx">Intestinal Worm </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Nausea.aspx">Nausea </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Obesity.aspx">Obesity </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Piles(Hemorrhoids).aspx">piles </a>
+    </li>
+
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Vomiting.aspx">Vomiting </a>
+    </li>
+
+    </ul>
+</li>
+
+<li class="active"><a href="#">Kidney</a>
+    <ul>
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="KidneyStones.aspx">Kidney Stone </a>
+    </li>
+
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Nephritis.aspx">Nethritis </a>
+    </li>
+    
+    </ul>
+</li>
+
+
+<li class="active"><a href="#">Liver</a>
+    <ul>
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Ascites.aspx">Ascites</a>
+    </li>
+
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="CirrhosisofLiver.aspx">Cirrhosis Of Liver</a>
+    </li>
+
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Hepatitis.aspx">Hepatitis</a>
+    </li>
+
+     <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Jaundice.aspx">Jaundice</a>
+    </li>
+    
+    
+    </ul>
+</li>
+
+<!--  -->
+
+<li class="active"><a href="#">Sleeping Disorder</a>
+    <ul>
+
+      
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Insomnia.aspx">Insomnia </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="SleepApnea.aspx">Sleep Apnea </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Snoring.aspx">Snoring</a>
+    </li>
+
+
+
+       
+    </ul>
+</li>
+
+<!--   -->
+
+
+<li class="active"><a href="#">Mental and Neuro</a>
+    <ul>
+    
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Alzheimers.aspx">Alzheimers </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Amnesia.aspx"> Amnesia</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="AnorexiaNevrosa.aspx">Anorexia Nevrosa </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Anxiety.aspx">Anxiety </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="AttentionDeficit.aspx">Attention Deficit</a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Dizziness.aspx">Dazziness </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Depression.aspx">Depression </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="Neuritis.aspx">Neuritis </a>
+    </li>
+
+    <!--  Appendicitis  -->
+    <li class="active">
+    <a href="WeakMemory.aspx">Weak Memory </a>
+    </li>
+
+
+
+
+
+
+
+    </ul>
+</li>
+
+</ul>
+
+
+<div class="dictionary">
+<table style="font-size: 10px;  width="200px"  cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<th><center><h1 style="font-family:Comic Sans MS ; color:#818181">Search for meaning</h1></center></th>
+</tr>
+<tr>
+<td colspan="2"><a href="http://dictionary.cambridge.org/"  style="display:block " target="_blank"   ></a></td>
+</tr>
+<tr>
+<td width="100px" style="padding: 4px;"><input name="q" size="12" style="display:block; height: 100%; width: 100%; font-size:16px " type="text" /></td>
+<td width="50px" style="padding: 0 4px 0 0;">
+<input width="100%" style="display:block; float: right;   font-size:12px ; padding: 4px 0;" type="submit"  value="search"/>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!--<p class="location"> hssjenhrth jyjrjntyj hnhnbf <br/>dndgndyjhgjd rhhtnm<br /><br />jbghrtn</p>-->
+			
+		</div>
+        <p class="location">
+            &nbsp;</p>
+
+        <p class="contentloc">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </p>
+        
+        <div class="footer">
+            <p align="center" style="font-family:Comic Sans MS">All Rights Reserved @ www.remedyanytime.com</p>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Healthy.Master.cs" Inherits="Healthy" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    
+        <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Animated Books with CSS 3D Transforms - Demo 2</title>
+		<meta name="description" content="Animated Books with CSS 3D Transforms" />
+		<meta name="keywords" content="book, 3d, interactive, animated, 3d transform, css, web design" />
+		<meta name="author" content="Marco Barría for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/book2.css" />
+		<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+			<!-- Top Navigation -->
+			
+			<header>
+				<h1>Remedy AnyTime<span>Ancient remedies for modern times</span></h1>	
+				<nav class="codrops-demos">
+					<a href="index.aspx">Home</a>
+					<a class="current-demo" href="remedyhome.aspx">Remedies</a>
+                    <a href="HealthyHomePage.aspx">Healthy Life</a>
+				</nav>
+			</header>
+
+<!-- Right Side Menu -->
+  
+<ul class="blendedmenu" id="blendedMenuV">
+<!--  General  -->
+<li class="active"><a href="nutritious1.aspx">Nutritious Diet </a>
+    
+</li>
+
+<li class="active"><a href="#">Fitness Tips</a>
+    
+</li>
+
+<li class="active"><a href="yoga1.aspx">Yoga for Healthy Life</a>
+  
+</li>
+
+<li class="active"><a href="women1.aspx">Women's Health </a>
+    <ul>
+    <!--  Alcoholism  -->
+    <li class="active">
+    <a href="women1.aspx">Alcoholism</a>
+    </li>
+    <!--  Anaemia  -->
+    <li class="active">
+    <a href="anaemia.aspx">Anaemia</a>
+    </li> 
+    </ul> 
+</li>
+
+
+</ul>
+
+<!--<p class="location"> hssjenhrth jyjrjntyj hnhnbf <br/>dndgndyjhgjd rhhtnm<br /><br />jbghrtn</p>-->
+			
+		</div>
+        <p class="location">
+            &nbsp;</p>
+
+        <p class="contentloc">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </p>
+        
+        <div class="footer">
+            <p align="center">All Rights Reserved @ www.remedyanytime.com</p>
+        </div>
+
+    </form>
+</body>
+</html>
+
